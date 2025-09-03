@@ -77,8 +77,14 @@ class Chef extends Person {
 let chef1 = new Chef("Alfredo", "Linguini", 19, 1.7, 60, "78946201", "987654321", "Gousto", "Lasagna");
 console.log(chef1);
 console.log(chef1.lastName);
-console.log(chef1.restaurant);
+//Accedemos a los nuevos atributos
 console.log(chef1.favoriteFood);
+chef1.cook();
+
+//POLIMORFISMO
+console.log("POLIFORMISMO");
+console.log(chef1.introduce());
+console.log(person1.introduce());
 
 
 
