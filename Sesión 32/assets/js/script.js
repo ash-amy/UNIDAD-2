@@ -58,4 +58,27 @@ person2.sayhello();
 console.log(person2.introduce());
 console.log(person2.getCellphone());
 
+console.log("HERENCIA");
+//Aplicamos heencia con la palabra reservada "extends". La clase Padre le hereda todos sus atributos y métods a la clase hija.
+class Chef extends Person {
+    //Agregar nuevos atributos a la clase Chef
+    //Agregamos el constructor y como parametros TODOS los atributos de la clase Padre EN ORDEN y luego agregamos nuestros nuevos atributos.
+    constructor(firstName, lastName, age, height, weight, id, cellphone, restaurant, favoriteFood) {
+        //Inicializar la clase Padre, esto se hace con el método especial SUPER()
+        super(firstName, lastName, age, height, weight, id, cellphone);
+        //Inicializo mis nuevos atributos
+        this.restaurant = restaurant;
+        this.favoriteFood = favoriteFood;
+    }
+}
+
+
+//Inicializamos una clase Heredada
+let chef1 = new Chef("Alfredo", "Linguini", 19, 1.7, 60, "78946201", "987654321", "Gousto", "Lasagna");
+console.log(chef1);
+console.log(chef1.lastName);
+console.log(chef1.restaurant);
+console.log(chef1.favoriteFood);
+
+
 
