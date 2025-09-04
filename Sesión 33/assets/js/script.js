@@ -41,3 +41,14 @@ let queryMinTitle = document.querySelector("#main-title");
 // let mainTexts = document.getElementsByClassName("main-text");
 let queryMainTexts = document.querySelectorAll(".main-text");
 console.log(queryMainTexts);
+
+console.log("EVENTOS");
+/* [Seleccionar elemento].addEvenListener("evento", funtion () {
+        // Código de la función que se ve a ejecutar cuando suceda el evento
+        // Es una función anónima, no tiene nombre
+    })Para agregar eventos, no es necesario almacenar el elemento en una variable
+*/
+document.getElementById("clicker").addEventListener("click", function () {
+    //Código de la función. Se ejecutará cuando se haga click en el elemento "clicker"
+    console.log("Haz hecho click en el botón");
+});
