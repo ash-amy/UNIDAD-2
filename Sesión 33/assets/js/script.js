@@ -4,9 +4,29 @@
 let mainTitle = document.getElementById("main-title");
 console.log(mainTitle);
 
-//Acceder al contenido con el atributo "innerText"
+//Acceder al contenido con el atributo "innerText". Este es un atributo de los objetos HTMLElement.
 console.log(mainTitle.innerText);
 
-//Actualizamod rl contenido desde JS
+//Actualizamod el contenido desde JS
 mainTitle.innerText = "TÍTULO CAMBIADO";
 console.log(mainTitle.innerText);
+
+console.log("SELECCIÓN POR CLASE");
+//getElementsByClassName("nombre-class") -> Selecciona todos los elementos con la misma clase, devuelve un array.
+let mainTexts = document.getElementsByClassName("main-text");
+console.log(mainTexts);
+
+//Al ser un arreglo, primero accedemos a uno de sus elementos
+console.log(mainTexts[0].innerText);
+console.log(mainTexts[2].innerText);
+
+//Cambiando el contenido de uno de los elementos
+mainTexts[1].innerText = "lorem";
+
+
+console.log("SELECCIÓN POR ETIQUETA");
+//getElementsByTagName("etiqueta") -> Selecciona todos los elementos de esa etiqueta, devuelve un array.
+let titles = document.getElementsByTagName("h2");
+console.log(titles);
+console.log(titles[2].innerText);
+
