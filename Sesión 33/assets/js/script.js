@@ -30,3 +30,14 @@ let titles = document.getElementsByTagName("h2");
 console.log(titles);
 console.log(titles[2].innerText);
 
+console.log("SELECCIONAR POR SINTAXIS CSS - QUERY SELECTOR");
+// querySelector("selector") -> Selecciona el primer elemento que coincida con el selector.
+// querySelectorAll("selector") -> Selecciona todos los elementos que coincidan con el selector. Devuelve un arregle/array
+
+
+// let mainTitle = document.getElementById("main-title");
+let queryMinTitle = document.querySelector("#main-title");
+
+// let mainTexts = document.getElementsByClassName("main-text");
+let queryMainTexts = document.querySelectorAll(".main-text");
+console.log(queryMainTexts);
