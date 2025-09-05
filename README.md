@@ -15,5 +15,5 @@ Este repositorio contiene mis prácticas y proyectos del día a día en **Diseñ
 - Git & GitHub
 
 ## ✨ Autor
-**Ash**  
+**Ashley Amy, Perales Huerta**  
 Estudiante de Diseño y Programación de Páginas Web
