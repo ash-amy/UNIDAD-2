@@ -83,3 +83,16 @@ console.log(nums.map((x) => x * 10));
 
 // Mostrar strings
 console.log(nums.map((x) => `Número ${x}`));
+
+console.log("FILTER");
+// filter(funtion) -> Retorna una COPIA del array original. Aplica una función de filtrado a todos los elementos del array y solo devuelve los que cumplen con la condición.
+
+//Filtra los elementos mayores a 5
+let filterNums = nums.filter((x) => x > 5);
+console.log(filterNums);
+
+//Filtra los elementos menores a 6
+console.log(nums.filter((x) => x < 6));
+
+//Filtra los elementos pares
+console.log(nums.filter((x) => x % 2 === 0));
