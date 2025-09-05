@@ -14,3 +14,13 @@ console.log("POP");
 fruits.pop();
 console.log(fruits);
 
+console.log("UNSHIFT");
+//unshift(x) -> Agrega el elemento x al INICIO del array.
+fruits.unshift("uva");
+console.log(fruits);
+
+console.log("SHIFT");
+//shift() -> Elimina el elemento x al INICIO del array y lo retorna.
+let deletedItem = fruits.shift();
+console.log(`Elemento eliminado con shift: ${deletedItem}`);
+console.log(fruits);
