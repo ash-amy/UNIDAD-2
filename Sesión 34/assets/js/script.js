@@ -24,3 +24,13 @@ console.log("SHIFT");
 let deletedItem = fruits.shift();
 console.log(`Elemento eliminado con shift: ${deletedItem}`);
 console.log(fruits);
+
+console.log("INCLUDES");
+//includes(x) -> Preguntar si x es un elementos del array. Retorna un booleano.
+console.log(fruits.includes("naranja")); // true
+console.log(fruits.includes("kiwi")); // false
+
+console.log("INDEXOF");
+// indexOf(x) -> Retorna el índice del elemento x en el arreglo. Si el arreglo no contiene el elemento, retorna -1
+console.log(fruits.indexOf("naranja")); // 1
+console.log(fruits.indexOf("kiwi")); // -1
