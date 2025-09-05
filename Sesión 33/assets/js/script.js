@@ -52,3 +52,5 @@ document.getElementById("clicker").addEventListener("click", function () {
     //Código de la función. Se ejecutará cuando se haga click en el elemento "clicker"
     console.log("Haz hecho click en el botón");
 });
+
+
