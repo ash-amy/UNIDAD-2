@@ -96,3 +96,12 @@ console.log(nums.filter((x) => x < 6));
 
 //Filtra los elementos pares
 console.log(nums.filter((x) => x % 2 === 0));
+
+console.log("REDUCE");
+// reduce(funtion, acumulator) -> Retorna una valor que es el resultado de reducir un array. Lo reduce aplicando la función a los elementos, además va guardando el resultado en el acumulador.
+
+// Suma todos los elementos del array
+console.log(nums.reduce((a, b) => a + b, 0));
+
+// Multiplica todos los elementos del array
+console.log(nums.reduce((a, b) => a * b, 1));
