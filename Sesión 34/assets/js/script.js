@@ -53,3 +53,17 @@ console.log(fruits.slice(2));
 //Corta el arreglo desde el índice 2 hasta el índice 5, sin tomar este último.
 console.log(fruits.slice(2, 5));
 
+console.log("SPLICE");
+//splice(inicio, cantidad, nuevos elementos...) -> Modifica el arreglo ORIGINAL. Desde "inicio" se eliminan la "cantidad" de elementos indicada
+
+//Corta hasta el índice 2 exclusivo
+//fruits.splice(2);
+//console.log(fruits);
+
+//Desde el índice 2, elimina 2 elementos 
+//fruits.splice(2, 2);
+//console.log(fruits);
+
+//Desde el índice 2, elimina dos elementos y desde esa misma posición agrega los nuevos elementos
+fruits.splice(2, 2, "sandía", "kiwi", "arándano");
+console.log(fruits);
