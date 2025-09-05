@@ -34,3 +34,8 @@ console.log("INDEXOF");
 // indexOf(x) -> Retorna el índice del elemento x en el arreglo. Si el arreglo no contiene el elemento, retorna -1
 console.log(fruits.indexOf("naranja")); // 1
 console.log(fruits.indexOf("kiwi")); // -1
+
+console.log("JOIN");
+//join() -> Toma todos los elementos del array y los junta en una string. Por defecto usa el carácter como (,) pero opcionalmente podemos indicar el carácter que queremos usar.
+console.log(fruits.join());
+console.log(fruits.join(", "));
