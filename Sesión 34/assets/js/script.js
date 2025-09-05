@@ -67,3 +67,19 @@ console.log("SPLICE");
 //Desde el índice 2, elimina dos elementos y desde esa misma posición agrega los nuevos elementos
 fruits.splice(2, 2, "sandía", "kiwi", "arándano");
 console.log(fruits);
+
+console.log("___________________________");
+let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(nums);
+console.log("MAP");
+// map(funtion) -> Retorna una COPIA del array. Aplica la función a cada uno de los elementos del array. El array resultante tiene la misma cantidad de elementos.
+
+//A cada elemento le aumenta 3
+let numsMap = nums.map((x) => x + 3);
+console.log(numsMap);
+
+// Multiplica los elementos por 10
+console.log(nums.map((x) => x * 10));
+
+// Mostrar strings
+console.log(nums.map((x) => `Número ${x}`));
